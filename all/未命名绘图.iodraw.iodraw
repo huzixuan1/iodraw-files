@@ -4,9 +4,13 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NfbBjaa7bnR7s1RmsIvo-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="NfbBjaa7bnR7s1RmsIvo-1">
+        <mxCell id="NfbBjaa7bnR7s1RmsIvo-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;shape=link;" edge="1" parent="1" source="NfbBjaa7bnR7s1RmsIvo-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="110" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="290" />
+              <mxPoint x="111" y="290" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="NfbBjaa7bnR7s1RmsIvo-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
