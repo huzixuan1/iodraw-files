@@ -54,6 +54,4 @@ graph TD
 
     AI --> AJ[Keyframe Insertion Conditions]
     AI --> AK[Keyframe Updates]
-
-
 ```
