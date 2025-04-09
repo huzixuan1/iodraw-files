@@ -20,18 +20,15 @@ graph TD
     J -->|Yes| K[伪造世界差分 (如果需要)]
     J -->|Yes| L[执行后处理]
     J -->|Yes| M[更新IMU估计器状态]
-
+    J -->|No| P[输出调试信息]
+    
     %% 输出结果
     L --> N[输出回调]
     M --> N[输出回调]
     N --> O[数据转储 (如果启用)]
 
-    %% 调试信息
-    J -->|No| P[输出调试信息]
-    P --> Q[返回VIO结果或调试信息]
-
     %% 数据存储
-    O --> Q
+    O --> Q[返回VIO结果或调试信息]
     K --> Q
     L --> Q
     H --> Q
@@ -53,4 +50,5 @@ graph TD
     style O fill:#ccccff
     style P fill:#ccccff
     style Q fill:#ffcc00
+
 ```
